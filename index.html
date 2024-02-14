@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Adivinanza</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+        <section class="container">
+            <h1 class="title">Adivina el número</h1>
+            <p>Elige un número del 1 al 100</p>
+            <div class="container-edit">
+                <input type="number" name="numero" id="numeroEntrada" placeholder="Ingresa un número">
+                <button onclick="verificarNumero()" class="botonComprobar">Comprobar</button>
+            </div>
+            <p id="mensaje">¡Prueba tu suerte!</p>
+            <h4 id="intento">Cantidad de Intentos:</h4>
+        </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
